@@ -1,6 +1,8 @@
 import random, requests, time
 from google.cloud import datastore
 
+# URL: https://us-central1-gcp-serverless-test-237520.cloudfunctions.net/do_something
+
 def do_something(request):
     # Wait a while and save something random to a database
     time.sleep(3)
